@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Web chat Application using React.Js and GetStream.io
 
 You can use the [editor on GitHub](https://github.com/greylicht/web-chat/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
