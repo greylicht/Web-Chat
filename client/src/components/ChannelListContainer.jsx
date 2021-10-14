@@ -127,12 +127,11 @@ const ChannelListContainer = ({ setCreateType, setIsCreating, setIsEditing }) =>
             </div>
 
             <div className="channel-list__container-responsive"
-                style={{ left: toggleContainer ? "0%" : "-87%", backgroundColor: "#005fff"}}
+                style={{ left: toggleContainer ? "0%" : "-83%", backgroundColor: "#005fff"}}
+                onClick={() => setToggleContainer((prevToggleContainer) => !prevToggleContainer)}
             >
-                <div className="channel-list__container-toggle" onClick={() => setToggleContainer((prevToggleContainer) => !prevToggleContainer)}>
-                </div>
                 <ChannelListContent 
-                setIsCreating={setIsCreating} 
+                setIsCreating={setIsCreating}
                 setCreateType={setCreateType} 
                 setIsEditing={setIsEditing}
                 setToggleContainer={setToggleContainer}
